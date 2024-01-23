@@ -1,0 +1,31 @@
+body {
+    background-color:lightcyan;
+    font-family: 'Nunito', sans-serif;
+}        
+    
+    .img{
+        position: absolute;
+        z-index: -1;
+        height:350px;
+        width:350px;
+        left:-10px;             
+        top:35px;
+    }
+    .img2{
+        position: absolute;
+        z-index: -1;
+        height:300px;
+        width:300px;
+        right:30px;             
+        bottom:90px;
+    }
+    .pagination{
+        justify-content: center !important;
+    }
+    a{
+        text-decoration: none;
+    }
+    #avatar{
+        height:50px;
+        width:50px;
+    }
